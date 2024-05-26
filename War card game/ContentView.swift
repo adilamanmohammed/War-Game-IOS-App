@@ -84,7 +84,7 @@ struct ContentView: View {
     func deal()
     {
         // can also use Var to declare variables
-        let   = Int.random(in: 2...14)
+        let  playerCardValue = Int.random(in: 2...14)
         let cpuCardValue = Int.random(in: 2...14)
         
         //Randamize the player cards
